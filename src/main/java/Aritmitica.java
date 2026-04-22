@@ -5,7 +5,8 @@ public class Aritmitica {
     //Constructores
     //Por defecto siempre crea un contructor vacio sin necesidad de crearlo
      public Aritmitica(){
-         System.out.println("Constructor Vacio");
+         a = 20;
+         b = 30;
      }
     //Constrctor con Parametros
 
