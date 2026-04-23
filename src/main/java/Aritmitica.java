@@ -8,9 +8,9 @@ public class Aritmitica {
          System.out.println("Constructor Vacio");
      }
     //Constrctor con Parametros
-    public  Aritmitica(int arg1, int arg2){
-         a=arg1;
-         b=arg2;
+    public  Aritmitica(int a, int b){
+         this.a=a; //Se una this para indicar que el valor de los parametros pasen a los variables de la clase
+         this.b=b;// Si no se hace es un ambiguedad
         System.out.println("Se ejecuta el constructor con 2 argumentos");
     }
 
@@ -19,15 +19,15 @@ public class Aritmitica {
     }
 
     public int restar(){
-         return a - b;
+         return this.a - this.b;
     }
 
     public int multiplicar(){
-         return a * b;
+         return this.a * this.b;
     }
 
     public int dividir(){
-         return a / b;
+         return this.a / this.b;
     }
 }
 
