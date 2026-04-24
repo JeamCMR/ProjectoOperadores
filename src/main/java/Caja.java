@@ -17,8 +17,8 @@ public class Caja {
 
     //Metodo Calcular Volumen
 
-    public int calcularVolumen(int a, int b,int c){
-        int volumen = a * b * c;
+    public int calcularVolumen(){
+        int volumen = this.ancho * this.alto * this.profundo;
         return volumen;
     }
 }

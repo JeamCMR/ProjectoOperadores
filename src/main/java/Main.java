@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main (String[] args){
-      //Varriables locales
+      /*//Varriables locales
         int operandoA = 6;
         int operadoB = 2;
 
@@ -15,6 +15,10 @@ public class Main {
         System.out.println("Resultado de la resta: " + objeto1.restar());
         System.out.println("Resultado de la multiplicacion: " + objeto1.multiplicar());
         System.out.println("Resultado de la Dividir: " + objeto1.dividir());
+    */
+        Caja caja1 = new Caja(3,2,6);
+        System.out.println("El resultado es: " + caja1.calcularVolumen());
+
     }
 }
 
